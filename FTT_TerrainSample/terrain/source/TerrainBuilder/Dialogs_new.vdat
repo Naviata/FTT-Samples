@@ -1,0 +1,12 @@
+
+
+dtImportShapes
+ftt_terrainsample\terrain\source\gtt_export
+dtSatteliteImageImportJPG
+ftt_terrainsample\terrain\source\imagery
+dtTemplatesImportTML
+P:\FTT_TerrainSample\terrain\source\TerrainBuilder\TemplateLibs\dz_z_unlisted.tml
+dtTerrainHeightmapImportJPG
+ftt_terrainsample\terrain\source\imagery
+dtTerrainSurfaceImportJPG
+ftt_terrainsample\terrain\source\imagery

@@ -1,0 +1,4 @@
+# Every file exactly as it is on disk. Git would otherwise rewrite the line endings of configs, XML
+# and template libraries on the way in and out, and the tools that read them were written against
+# the files as TerrainBuilder and DayZ Tools save them.
+* -text
