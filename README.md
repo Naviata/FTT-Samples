@@ -16,8 +16,6 @@ its TerrainBuilder project, `layers.cfg`, `config.cpp`, central economy files, e
 not the green *Code* button. The download is the whole sample; the folder in this repository is not.
 It leaves out:
 
-- `terrain/source/Imagery/ftt_heightmap.asc` — **the heightfield. A terrain cannot be opened without
-  it**, in FTT or in TerrainBuilder.
 - the exported layers in `data/`
 - two TerrainBuilder files too big for a repository, which refuses anything over 100 MB: a 704 MB
   `ftt_terrainsample_009.v4d` and a 262 MB cache block
@@ -36,11 +34,11 @@ be used again.
 
 ### What is left out, deliberately
 
-These folders are kept, empty, so the layout is the one TerrainBuilder and FTT expect:
+These folders are kept, so the layout is the one TerrainBuilder and FTT expect:
 
 | Folder | What is missing |
 |---|---|
-| `terrain/source/Imagery` | The satellite map and surface mask — yours to make. The download carries the heightmap. |
+| `terrain/source/Imagery` | The satellite map and surface mask — yours to make. The heightmap, `ftt_heightmap.asc`, is here: a terrain cannot be opened without one. |
 | `terrain/source/QGIS` | The GIS project the terrain was built from |
 | `terrain/source/gtt_export` | Working exports from the terrain generator |
 
